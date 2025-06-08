@@ -1,0 +1,107 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PVC STORE</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+    body {
+      background-color: #f5f7fa;
+      color: #333;
+    }
+    header {
+      background: #0a74da;
+      color: white;
+      padding: 1rem 2rem;
+      text-align: center;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    .container {
+      padding: 2rem;
+      max-width: 1200px;
+      margin: auto;
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+    .product {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.05);
+      overflow: hidden;
+      transition: transform 0.2s;
+    }
+    .product:hover {
+      transform: translateY(-5px);
+    }
+    .product img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+    .product-info {
+      padding: 1rem;
+      text-align: center;
+    }
+    .product-info h3 {
+      font-size: 1.1rem;
+      margin-bottom: 0.5rem;
+    }
+    .product-info p {
+      color: #0a74da;
+      font-weight: bold;
+      margin-bottom: 1rem;
+    }
+    .add-btn {
+      padding: 0.5rem 1rem;
+      background-color: #0a74da;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+    .add-btn:hover {
+      background-color: #0954a1;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>PVC STORE</h1>
+    <p>Stylish & Premium PVC ID Cards</p>
+  </header>
+  <div class="container">
+    <div class="products">
+      <!-- Product cards -->
+      <div class="product">
+        <img src="https://via.placeholder.com/300x200?text=PVC+Card+1" alt="Product 1">
+        <div class="product-info">
+          <h3>Basic PVC Card</h3>
+          <p>₹49</p>
+          <button class="add-btn">Add to Cart</button>
+        </div>
+      </div>
+      <!-- Duplicate the block above for 10-20 products -->
+      <!-- Example: -->
+      <div class="product">
+        <img src="https://via.placeholder.com/300x200?text=PVC+Card+2" alt="Product 2">
+        <div class="product-info">
+          <h3>Premium PVC Card</h3>
+          <p>₹79</p>
+          <button class="add-btn">Add to Cart</button>
+        </div>
+      </div>
+      <!-- Add more products below... -->
+    </div>
+  </div>
+</body>
+</html>
