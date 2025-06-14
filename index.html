@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PVC STORE</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {margin: 0; padding: 0; box-sizing: border-box; font-family: 'Poppins', sans-serif;}
+    body {background-color: #f5f7fa; color: #333;}
+    header {background: #0a74da; color: white; padding: 1rem 2rem; text-align: center; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);}
+    .container {padding: 2rem; max-width: 1200px; margin: auto;}
+    .products {display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 1.5rem;}
+    .product {background: white; border-radius: 12px; box-shadow: 0 8px 16px rgba(0,0,0,0.05); overflow: hidden; transition: transform 0.2s;}
+    .product:hover {transform: translateY(-5px);}
+    .product img {width: 100%; height: 200px; object-fit: cover;}
+    .product-info {padding: 1rem; text-align: center;}
+    .product-info h3 {font-size: 1.1rem; margin-bottom: 0.5rem;}
+    .product-info p {color: #0a74da; font-weight: bold; margin-bottom: 1rem;}
+    .add-btn {padding: 0.5rem 1rem; background-color: #0a74da; color: white; border: none; border-radius: 8px; cursor: pointer; transition: background 0.3s;}
+    .add-btn:hover {background-color: #0954a1;}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>PVC STORE</h1>
+    <p>स्टाइलिश और प्रीमियम PVC ID कार्ड्स</p>
+  </header>
+
+  <div class="container">
+    <div class="products">
+      <!-- Example product (baaki sab same tarah se rakhna hai) -->
+      <div class="product">
+        <img src="https://i.ibb.co/HTsG7Ywh/pvc-pan-card-print-700x700.webp" alt="PAN Card" style="max-width: 100%; height: auto;">
+        <div class="product-info">
+          <h3>PAN CARD PVC</h3>
+          <p>₹49</p>
+          <button class="add-btn" data-cardname="PAN CARD PVC">Order Now</button>
+        </div>
+      </div>
+
+    
+    <div class="product">
+  <img src="https://i.ibb.co/1Y5k6KBp/014-1b210c22-1024x1024.webp" alt="014-1b210c22-1024x1024" style="max-width: 100%; height: auto;">
+  <div class="product-info">
+    <h3>AADHAR CARD PVC</h3>
+    <p>₹54</p>
+    <button class="add-btn" data-cardname="AADHAR CARD PVC">Order Now</button>
+  </div>
+</div>
+
+
+<div class="product">
+  <img src="https://i.ibb.co/5gGCrcgk/votar-300x300.jpg" alt="votar-300x300" style="max-width: 100%; height: auto;">
+  <div class="product-info">
+    <h3>OLD TO NEW VOTER CARD</h3>
+    <p>₹59</p>
+    <button class="add-btn" data-cardname="OLD TO NEW VOTER CARD">Order Now</button>
+  </div>
+</div>
+
+
+<div class="product">
+  <img src="https://i.ibb.co/vngK3KC/jharkhand-ration-card-pvc-print.webp" alt="jharkhand-ration-card-pvc-print" style="max-width: 100%; height: auto;">
+  <div class="product-info">
+    <h3>RATION CARD PVC PRINT</h3>
+    <p>₹64</p>
+    <button class="add-btn" data-cardname="RATION CARD PVC PRINT">Order Now</button>
+  </div>
+</div>
+
+
+<div class="product">
+  <img src="https://i.ibb.co/LBDfRhy/ayushman-bharat-card-print-high-quality-pvc-card-printing-700x700.webp" alt="ayushman-bharat-card-print-high-quality-pvc-card-printing-700x700" style="m-width: 100%; height: auto;">
+  <div class="product-info">
+    <h3>Ayushman Bharat pvc card</h3>
+    <p>₹69</p>
+    <button class="add-btn" data-cardname="Ayushman Bharat pvc card">Order Now</button>
+  </div>
+</div>
+
+
+<div class="product">
+  <img src="https://i.ibb.co/DfKMTRdL/e-shram-card-pvc-card-printing-front-side.webp" alt="e-shram-card-pvc-card-printing-front-side" style="max-width: 100%; height: auto;">
+  <div class="product-info">
+    <h3>E-SHRAM CARD PVC</h3>
+    <p>₹74</p>
+    <button class="add-btn" data-cardname="E-SHRAM CARD PVC">Order Now</button>
+  </div>
+</div>
+
+
+<div class="product">
+  <img src="https://i.ibb.co/LdQtjCKx/PRINT-VEHICLE-RC-PVC-scaled-1-1024x1024.webp" alt="PRINT-VEHICLE-RC-PVC-scaled-1-1024x1024" style="max-width: 100%; height: auto;">
+  <div class="product-info">
+    <h3>VEHICLE RC PRINT PVC</h3>
+    <p>₹79</p>
+    <button class="add-btn" data-cardname="VEHICLE RC PRINT PVC"
+    >Order Now</button>
+  </div>
+</div>
+
+
+<div class="product">
+  <img src="https://i.ibb.co/hJBw39p0/apaar-id-card-pvc-700x700.webp" alt="apaar-id-card-pvc-700x700" style="max-width: 100%; height: auto;">
+  <div class="product-info">
+    <h3>AAPAR CARD PVC</h3>
+    <p>₹84</p>
+    <button class="add-btn" data-cardname="AAPAR CARD PVC">Order Now</button>
+  </div>
+</div>
+
+
+<div class="product">
+  <img src="https://i.ibb.co/0p1spKbb/dl-pvc-1024x1024.png" alt="dl-pvc-1024x1024" style="max-width: 100%; height: auto;">
+  <div class="product-info">
+    <h3>DRIVING LICENCE (PLASTIC PRINT)</h3>
+    <p>₹89</p>
+    <button class="add-btn" data-cardname="DRIVING LICENCE (PLASTIC PRINT)">Order Now</button>
+  </div>
+</div>
+
+
+<div class="product">
+  <img src="https://i.ibb.co/KjTVpSbH/Couple-Duo-Main-9-1024x1024.webp" alt="Couple-Duo-Main-9-1024x1024" style="max-width: 100%; height: auto;">
+  <div class="product-info">
+    <h3>Any photo print on pvc card Like-couples, baby, god etc.</h3>
+    <p>₹94</p>
+    <button class="add-btn" data-cardname="Any photo print on pvc card Like-couples, baby, god etc.">Order Now</button>
+  </div>
+</div>
+
+
+<div class="product">
+  <img src="https://i.ibb.co/WWcmwYnW/Whats-App-Image-2025-04-08-at-18-20-26-f48fdb0c-1024x1024.jpg" alt="Whats-App-Image-2025-04-08-at-18-20-26-f48fdb0c-1024x1024" style="max-width: 100%; height: auto;">
+  <div class="product-info">
+    <h3>PDF TO PVC CARD</h3>
+    <p>₹94</p>
+    <button class="add-btn" data-cardname="PDF TO PVC CARD">Order Now</button>
+  </div>
+</div>
+
+
+
+
+
+<div class="product">
+  <img src="https://i.ibb.co/9JXCdJb/20250613-101025.jpg" alt="20250613-101025" style="max-width: 100%; height: auto;">
+  <div class="product-info">
+    <h3>PASSPORT SIZE PHOTO (42)</h3>
+    <p>₹94</p>
+    <button class="add-btn" data-cardname="PASSPORT SIZE PHOTO (42)">Order Now</button>
+  </div>
+</div>
+
+
+<div class="product">
+  <img src="https://i.ibb.co/Xx3Qgk9w/1538836-5033-300x300.jpg" alt="1538836-5033-300x300" style="max-width: 100%; height: auto;">
+  <div class="product-info">
+    <h3>ANY PVC CARD</h3>
+    <p>₹94</p>
+    <button class="add-btn" data-cardname="ANY PVC CARD">Order Now</button>
+  </div>
+</div>
+
+
+<div class="product">
+  <img src="https://i.ibb.co/kgKy13Nw/unique-disability-identity-card-smart-card-pvc-card.webp" alt="unique-disability-identity-card-smart-card-pvc-card" style="max-width: 100%; height: auto;">
+  <div class="product-info">
+    <h3>Unique Disability Identity Card (UDID) (Smart Card)</h3>
+    <p>₹94</p>
+    <button class="add-btn" data-cardname="Unique Disability Identity Card (UDID) (Smart Card)">Order Now</button>
+  </div>
+</div>
+
+
+<div class="product">
+  <img src="https://i.ibb.co/Xk84gHZy/abha-health-id-card-pvc-card-658412d69a075.webp" alt="abha-health-id-card-pvc-card-658412d69a075" style="max-width: 100%; height: auto;">
+  <div class="product-info">
+    <h3>ABHA Health ID Card PVC Print</h3>
+    <p>₹94</p>
+    <button class="add-btn" data-cardname="ABHA Health ID Card PVC Print">Order Now</button>
+  </div>
+</div>
+
+
+<div class="product">
+  <img src="https://via.placeholder.com/300x200?text=PVC+Card+10" alt="PVC Card 10">
+  <div class="product-info">
+    <h3>HEALTH CARD (ABHA)</h3>
+    <p>₹94</p>
+    <button class="add-btn" data-cardname="HEALTH CARD (ABHA)">Order Now</button>
+  </div>
+</div>
+
+
+<div class="product">
+  <img src="https://via.placeholder.com/300x200?text=PVC+Card+10" alt="PVC Card 10">
+  <div class="product-info">
+    <h3>HEALTH CARD (ABHA)</h3>
+    <p>₹94</p>
+    <button class="add-btn" data-cardname="HEALTH CARD (ABHA)">Order Now</button>
+  </div>
+</div>
+  <div id="orderFormPopup" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.6); z-index:9999; justify-content:center; align-items:center;">
+  <div style="background:white; padding:20px; border-radius:12px; width:90%; max-width:400px; max-height:90vh; overflow-y:auto; position:relative;">
+    <span onclick="closeForm()" style="position:absolute; top:10px; right:15px; cursor:pointer; font-weight:bold; color:#f00;">X</span>
+    <h2 style="margin-bottom:10px;">Order Form</h2>
+    
+    <form action="https://formsubmit.co/dkbhaibusiness@gmail.com" method="POST" enctype="multipart/form-data">
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_template" value="table">
+      <input type="hidden" name="_next" value="https://devanshurathourfarrukhabad.github.io/pvc-store/thankyou.html">
+
+      <label>Card Name:</label><br>
+      <input type="text" name="Card Name" id="cardNameInput" readonly style="width:100%; margin-bottom:10px;"><br>
+
+      <label>Name:</label><br>
+      <input type="text" name="Name" required style="width:100%; margin-bottom:10px;"><br>
+
+      <label>Date of Birth:</label><br>
+      <input type="date" name="Date of Birth" required style="width:100%; margin-bottom:10px;"><br>
+
+      <label>Father's Name:</label><br>
+      <input type="text" name="Father Name" required style="width:100%; margin-bottom:10px;"><br>
+
+      <label>Mobile Number:</label><br>
+      <input type="tel" name="Mobile Number" required style="width:100%; margin-bottom:10px;"><br>
+
+      <label>Address:</label><br>
+      <textarea name="Address" required style="width:100%; margin-bottom:10px;"></textarea><br>
+
+      <label>Pincode:</label><br>
+      <input type="tel" name="Pincode" required style="width:100%; margin-bottom:10px;"><br>
+
+      <label>Upload File (PDF/JPG/PNG):</label><br>
+      <input type="file" name="File" accept=".pdf,.jpg,.jpeg,.png" required style="margin-bottom:15px;"><br>
+
+      <label>Password (if PDF is protected):</label><br>
+      <input type="text" name="PDF Password" placeholder="Leave blank if not required" style="width:100%; margin-bottom:15px;"><br>
+      
+      <!-- Payment Section -->
+      <p style="margin-top: 15px; margin-bottom: 10px; color:#0a74da;">
+        👉 कृपया पहले <span id="priceText">₹94</span> का भुगतान करें, फिर ही ऑर्डर सबमिट करें।
+      </p>
+
+      <!-- Device-based QR / Pay Now -->
+      <style>
+        .desktop-only { display: none; }
+        .mobile-only { display: block; }
+        @media (min-width: 768px) {
+          .desktop-only { display: block; }
+          .mobile-only { display: none; }
+        }
+      </style>
+
+      <div class="desktop-only" style="text-align:center; margin: 20px 0;">
+        <p><strong>💳 कृपया QR कोड स्कैन करें:</strong></p>
+        <img id="qrImage" 
+             src="https://api.qrserver.com/v1/create-qr-code/?data=upi://pay?pa=9305431691@ybl&pn=PVC+Card+Store&am=94&cu=INR&tn=PVC+Card+Order" 
+             alt="QR Code" 
+             style="width:200px; height:200px;">
+      </div>
+
+      <div class="mobile-only" style="text-align:center; margin: 20px 0;">
+        <a id="payNowLink" href="upi://pay?pa=9305431691@ybl&pn=PVC+Card+Store&am=94&cu=INR&tn=PVC+Card+Order" target="_blank">
+          <button type="button" style="padding:10px 20px; background:#28a745; color:white; border:none; border-radius:6px; cursor:pointer;">
+            📲 Pay Now
+          </button>
+        </a>
+      </div>
+
+      <label style="margin-top:15px; display:block;">पेमेंट का स्क्रीनशॉट अपलोड करें:</label>
+      <input type="file" name="Payment Screenshot" accept="image/*" required style="margin-bottom:15px;"><br>
+
+      <button type="submit" style="padding:10px 20px; background:#0a74da; color:white; border:none; border-radius:6px; cursor:pointer;">Submit Order</button>
+    </form>
+  </div>
+</div>
+
+<!-- ✅ JavaScript to auto-fill Card Name & Payment info -->
+<script>
+  const prices = {
+    "PAN CARD PVC": 49,
+    "AADHAR CARD PVC": 54,
+    "OLD TO NEW VOTER CARD": 59,
+    "RATION CARD PVC PRINT": 64,
+    "Ayushman Bharat pvc card": 69,
+    "E-SHRAM CARD PVC": 74,
+    "VEHICLE RC PRINT PVC": 79,
+    "AAPAR CARD PVC": 84,
+    "DRIVING LICENCE (PLASTIC PRINT)": 89,
+    "Any photo print on pvc card Like-couples, baby, god etc.": 94,
+    "PDF TO PVC CARD": 94,
+    "PASSPORT SIZE PHOTO (42)": 94,
+    "ANY PVC CARD": 94,
+    "Unique Disability Identity Card (UDID) (Smart Card)": 94,
+    "ABHA Health ID Card PVC Print": 94,
+    "HEALTH CARD (ABHA)": 94
+  };
+
+  document.querySelectorAll(".add-btn").forEach(button => {
+    button.addEventListener("click", () => {
+      const cardName = button.getAttribute("data-cardname");
+      const price = prices[cardName] || 94;
+
+      document.getElementById("cardNameInput").value = cardName;
+      document.getElementById("priceText").innerText = `₹${price}`;
+
+      document.getElementById("payNowLink").href =
+        `upi://pay?pa=9305431691@ybl&pn=PVC+Card+Store&am=${price}&cu=INR&tn=${encodeURIComponent(cardName)}`;
+
+      document.getElementById("qrImage").src =
+        `https://api.qrserver.com/v1/create-qr-code/?data=${encodeURIComponent(`upi://pay?pa=9305431691@ybl&pn=PVC+Card+Store&am=${price}&cu=INR&tn=${cardName}`)}&size=200x200`;
+
+      document.getElementById("orderFormPopup").style.display = "flex";
+    });
+  });
+
+  function closeForm() {
+    document.getElementById("orderFormPopup").style.display = "none";
+  }
+</script>
