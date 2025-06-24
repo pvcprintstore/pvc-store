@@ -1,4 +1,55 @@
 <!DOCTYPE html>
+<style>
+  .navbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #f8f9fa;
+    padding: 12px 10px;
+    font-family: 'Segoe UI', sans-serif;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    gap: 10px;
+  }
+
+  .navbar a {
+    display: inline-block;
+    color: #007BFF;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 17px;
+    border: 2px solid #007BFF;
+    transition: 0.3s ease;
+    white-space: nowrap;  /* 👈 Prevents multi-line text */
+  }
+
+  .navbar a:hover {
+    background-color: #007BFF;
+    color: white;
+    box-shadow: 0 0 6px #007BFF;
+  }
+
+  @media (max-width: 600px) {
+    .navbar {
+      justify-content: center;
+    }
+
+    .navbar a {
+      font-size: 16px;
+      padding: 10px 16px;
+    }
+  }
+</style>
+
+<div class="navbar">
+  <a href="index.html"><i class="fas fa-home"></i>Home</a>
+  <a href="pancard.html"><i class="fas fa-file-alt"></i>Print Original Pancard</a>
+  <a href="track.html"><i class="fas fa-map-marker-alt"></i>Track Order</a>
+  <a href="contact.html"><i class="fas fa-envelope"></i>Contact</a>
+  <a href="find-docoment.html"><i class="fas fa-search"></i>find lost docoment</a>
+</div>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
