@@ -92,7 +92,7 @@
    <style>
   .navbar {
     display: flex;
-    flex-wrap: wrap; /* 👈 Important: Allows wrapping on small screens */
+    flex-wrap: wrap;
     justify-content: center;
     background-color: #f8f9fa;
     padding: 12px 10px;
@@ -102,18 +102,17 @@
   }
 
   .navbar a {
+    display: inline-block;
     color: #007BFF;
     background-color: white;
-    padding: 10px 16px;
+    padding: 10px 20px;
     border-radius: 6px;
     text-decoration: none;
     font-weight: 600;
     font-size: 17px;
     border: 2px solid #007BFF;
     transition: 0.3s ease;
-    flex: 1 1 auto; /* 👈 Makes buttons responsive */
-    max-width: 180px; /* 👈 Keeps them from stretching too wide */
-    text-align: center;
+    white-space: nowrap;  /* 👈 Prevents multi-line text */
   }
 
   .navbar a:hover {
@@ -123,8 +122,13 @@
   }
 
   @media (max-width: 600px) {
+    .navbar {
+      justify-content: center;
+    }
+
     .navbar a {
-      flex: 1 1 45%; /* 2 buttons per row on small screen */
+      font-size: 16px;
+      padding: 10px 16px;
     }
   }
 </style>
