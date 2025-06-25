@@ -1,0 +1,329 @@
+<!doctype html>
+
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>PVC Print Store – ID Card & Custom Print Service</title>
+    <meta
+      name="description"
+      content="PVC Print Store offers high-quality PVC ID cards, custom prints, and quick delivery. Order your card online now."
+    />
+    <meta
+      name="keywords"
+      content="PVC Print Store, ID card printing, PVC card, custom print, online ID card"
+    />
+    <meta name="robots" content="index, follow" />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Poppins", sans-serif;
+      }
+      body {
+        background-color: #f5f7fa;
+        color: #333;
+      }
+      header {
+  background: #0a74da;
+  color: white;
+  padding: 10px 20px 8px 20px; /* 👈 Bottom padding kam kar diya */
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  font-size: 28px;
+  margin-bottom: 4px; /* 👈 Yeh line header ke neeche ka space control karti hai */
+}
+
+header p {
+  font-size: 16px;
+  margin-top: 0px;
+  margin-bottom: 6px; /* 👈 Yeh line "PVC ID कार्ड्स" ke neeche ka gap */
+}
+      .container {
+        padding: 2rem;
+        max-width: 1200px;
+        margin: auto;
+      }
+      .products {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        gap: 1.5rem;
+      }
+      .product {
+        background: white;
+        border-radius: 12px;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.05);
+        overflow: hidden;
+        transition: transform 0.2s;
+      }
+      .product:hover {
+        transform: translateY(-5px);
+      }
+      .product img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+      }
+      .product-info {
+        padding: 1rem;
+        text-align: center;
+      }
+      .product-info h3 {
+        font-size: 1.1rem;
+        margin-bottom: 0.5rem;
+      }
+      .product-info p {
+        color: #0a74da;
+        font-weight: bold;
+        margin-bottom: 1rem;
+      }
+      .add-btn {
+        padding: 0.5rem 1rem;
+        background-color: #0a74da;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: background 0.3s;
+      }
+      .add-btn:hover {
+        background-color: #0954a1;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>PVC STORE</h1>
+      <p>स्टाइलिश और प्रीमियम PVC ID कार्ड्स</p>
+    </header>
+   <style>
+  .navbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #f8f9fa;
+    padding: 12px 10px;
+    font-family: 'Segoe UI', sans-serif;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    gap: 10px;
+  }
+
+  .navbar a {
+    display: inline-block;
+    color: #007BFF;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 17px;
+    border: 2px solid #007BFF;
+    transition: 0.3s ease;
+    white-space: nowrap;  /* 👈 Prevents multi-line text */
+  }
+
+  .navbar a:hover {
+    background-color: #007BFF;
+    color: white;
+    box-shadow: 0 0 6px #007BFF;
+  }
+
+  @media (max-width: 600px) {
+    .navbar {
+      justify-content: center;
+    }
+
+    .navbar a {
+      font-size: 16px;
+      padding: 10px 16px;
+    }
+  }
+</style>
+
+<div class="navbar">
+  <a href="index.html"><i class="fas fa-home"></i>Home</a>
+  <a href="pancard.html"><i class="fas fa-file-alt"></i>Print Original Pancard</a>
+  <a href="track.html"><i class="fas fa-map-marker-alt"></i>Track Order</a>
+  <a href="contact.html"><i class="fas fa-envelope"></i>Contact Us</a>
+  <a href="find-docoment.html"><i class="fas fa-search"></i>Find lost docoments</a>
+</div>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Us</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fffff0;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 1000px;
+      margin: 10px auto 30px auto;
+      padding: 20px;
+    }
+    h1 {
+  text-align: center;
+  margin-bottom: 80px; /* gap badha diya */
+}
+
+h2 {
+  margin-top: 0px; /* agar h2 ke upar se gap kam karna ho to */
+  margin-bottom: 20px;
+}
+
+    .contact-wrapper {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+    }
+
+    @media (min-width: 768px) {
+      .contact-wrapper {
+        flex-direction: row;
+        justify-content: space-between;
+      }
+    }
+
+    .info, .form-section {
+      flex: 1;
+    }
+
+    .info p {
+      font-size: 16px;
+      margin: 10px 0;
+    }
+
+    .social {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-top: 10px;
+    }
+
+    .social img {
+      width: 30px;
+      height: 30px;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    input, textarea {
+      width: 90%;
+      padding: 10px;
+      margin-top: 8px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 14px;
+    }
+
+    button {
+      background-color: #007bff;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    button:hover {
+      background-color: #0056b3;
+    }
+
+    .big-map {
+      width: 100%;
+      height: 500px;
+      border: 0;
+      margin-top: 30px;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Contact US</h1>
+    <div class="contact-wrapper">
+      <!-- Left: Info Section -->
+      <div class="info">
+        <h2>Get In Touch</h2>
+        <p><strong>Whatsapp Number :</strong> 9451502077</p>
+        <p><strong>Address :</strong> Office address - Turk Lalaiya Post Lahara, kaimganj, Farrukhabad, Uttar Pradesh</p>
+        <p><strong>Social media :</strong></p>
+        <div class="social">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" style="width: 32px; height: 32px; margin-right: 10px;" />
+  <a href="https://instagram.com/ankit_csc_turklalaiya" target="_blank" style="color: blue; font-weight: bold; text-decoration: underline;">
+    @ankit_csc_turklalaiya
+  </a>
+</div>
+      </div>
+
+      <!-- Right: Form Section -->
+<div class="form-section">
+  <form action="https://formsubmit.co/dkbhaibusiness@gmail.com" method="POST">
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_next" value="https://pvcprintstore.github.io/pvc-store/thankyou.html">
+    <label for="name">Your name</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Your email</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="subject">Subject</label>
+    <input type="text" id="subject" name="subject" required>
+
+    <label for="message">Your message (optional)</label>
+    <textarea id="message" name="message" rows="4"></textarea>
+
+    <button type="submit">Submit</button>
+  </form>
+  <!-- ✅ Loader Overlay with Spinner -->
+<div id="loadingOverlay" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(255,255,255,0.9); z-index:99999; justify-content:center; align-items:center; flex-direction:column; font-family:sans-serif;">
+  <div class="spinner" style="border: 5px solid #f3f3f3; border-top: 5px solid #0a74da; border-radius: 50%; width: 50px; height: 50px; animation: spin 1s linear infinite;"></div>
+  <div style="margin-top: 15px; font-size: 18px; color: #333;">⏳ Please wait... your message is being submitted.</div>
+</div>
+
+<style>
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+</style>
+
+<script>
+  window.addEventListener("DOMContentLoaded", function () {
+    const form = document.querySelector("form");
+    const loader = document.getElementById("loadingOverlay");
+
+    if (form && loader) {
+      form.addEventListener("submit", function () {
+        loader.style.display = "flex";
+      });
+    }
+  });
+</script>
+</div>
+    </div>
+
+    <!-- Map Section -->
+    <iframe 
+      class="big-map"
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1401.7409791296355!2d79.3842994!3d27.5086802!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399e2bc18aafe28f%3A0xff8c45ae537c6d25!2sAadhaar%20Seva%20Kendra%2C%20Turk%20Lalaiya%2C%20Post%2C%20Lahara%20Raja%20Kulipur%2C%20Kaimganj%2C%20Uttar%20Pradesh%20209502!5e0!3m2!1sen!2sin!4v1719315538209!5m2!1sen!2sin" 
+      allowfullscreen="" 
+      loading="lazy" 
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+  </div>
+</body>
+</html>
